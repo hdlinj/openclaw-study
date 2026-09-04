@@ -7,19 +7,15 @@
 存放经过清理敏感信息后的配置模板、自定义Skill样例、排坑记录、实操脚本、调优心得。
 
 ## 📂 仓库目录规划
-├── config‑samples/        # 改良配置模板：SOUL.md、AGENTS.md、MEMORY.md 记忆体系
-
-├── skills‑custom/         # 修改增强后的自定义 Skill 脚本
-
-├── workflows/             # 高级任务编排、多子智能体实践方案
-
-├── troubleshooting/       # 故障复盘：超时、WebSocket、token 爆炸、上下文污染
-
-├── knowledge‑rag/         # RAG 知识库增强实践
-
-├── docs/                  # 调优思路文档、踩坑经验
-
-└── snippets/              # 可直接复用的命令、代码片段
+```
+├── config‑samples/ # 改良配置模板：SOUL.md、AGENTS.md、MEMORY.md 记忆体系
+├── skills‑custom/ # 修改增强后的自定义 Skill 脚本
+├── workflows/ # 高级任务编排、多子智能体实践方案
+├── troubleshooting/ # 故障复盘：超时、WebSocket、token 爆炸、上下文污染
+├── knowledge‑rag/ # RAG 知识库增强实践
+├── docs/ # 调优思路文档、踩坑经验
+└── snippets/ # 可直接复用的命令、代码片段
+```
 
 ## ✨主要研究调优方向
 1. **人格与约束调优**：优化SOUL.md规则，改善Agent主动性，减少被动等待指令
