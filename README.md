@@ -1,2 +1,37 @@
-# openclaw-study
-Personal practice notes for enhancing OpenClaw Agent. Configuration tuning, skill modification, troubleshooting and optimization records. Not official repository.   增强 OpenClaw Agent 的个人实践笔记，包含配置调优、技能修改、故障排查与优化记录，非官方仓库。
+# openclaw‑study
+> 🦞 个人实践研究仓库，**非 OpenClaw 官方仓库**
+
+🎯 **核心目标：探索各类手段，持续让 OpenClaw Agent 变得更强**
+聚焦 Agent 能力调优、工作流改造、记忆体系优化、故障问题复盘，解决任务执行力弱、上下文膨胀、记忆丢失、输出退化、通信异常等真实使用痛点。
+
+存放经过清理敏感信息后的配置模板、自定义Skill样例、排坑记录、实操脚本、调优心得。
+
+## 📂 仓库目录规划
+├── config‑samples/        # 改良配置模板：SOUL.md、AGENTS.md、MEMORY.md 记忆体系
+
+├── skills‑custom/         # 修改增强后的自定义 Skill 脚本
+
+├── workflows/             # 高级任务编排、多子智能体实践方案
+
+├── troubleshooting/       # 故障复盘：超时、WebSocket、token 爆炸、上下文污染
+
+├── knowledge‑rag/         # RAG 知识库增强实践
+
+├── docs/                  # 调优思路文档、踩坑经验
+
+└── snippets/              # 可直接复用的命令、代码片段
+
+## ✨主要研究调优方向
+1. **人格与约束调优**：优化SOUL.md规则，改善Agent主动性，减少被动等待指令
+2. **记忆架构打磨**：长短期记忆、vault知识库配置，缓解任务遗忘问题，提升长任务稳定性
+3. **Skill改造增强**：修改原生技能，构建复合技能，拓展Agent行动边界
+4. **上下文治理**：窗口压缩、自动摘要策略，控制Token消耗，避免上下文污染
+5. **多智能体编排**：拆分角色子Agent，提升复杂任务处理质量
+6. **模型策略调优**：多模型分流部署，平衡性能与调用成本
+7. **线上故障复盘**：连接超时、权限异常、输出崩坏等问题复现与完整解决方案
+
+> ⚠️重要提醒：所有提交内容均已清除API‑Key、密钥等敏感信息，切勿提交凭证类资料。
+
+## 参考资源
+- OpenClaw 官方文档：https://docs.openclaw.ai
+- ClawHub 技能广场：技能社区资源
